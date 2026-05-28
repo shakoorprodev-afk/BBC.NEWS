@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>bbc-news</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #topbar-section {
+            width: 1000px;
+            height: 40px;
+            margin: 0 auto;
+        }
+        #logo {
+            margin: 7px;
+            height: 30px;
+            float: left;
+        }
+        .topbar-menu {
+            border-left: 1px solid #909090cc;
+            float: left;
+            height: 40px;
+            line-height: 40px;
+            padding: -2px;
+        }
+        #singin-logo {
+            margin: 7px;
+            float: left;
+        }
+        #singin-text {
+            position: relative;
+            top: 5px;
+            margin-right: 40px;
+        }
+        .top {
+            position: relative;
+            left: 2px;
+            padding: 10px;
+            float: left;
+        }
+        #more-arrow {
+            position: relative;
+            left: 50px;
+            top: 0px;
+        }
+        .search-bar {
+            float: left;
+            border-left: 1px solid #909090cc;
+            height: 40px;
+            line-height: 40px;
+            padding: 5px;
+            position: relative;
+            left: 80px;  
+        }
+        .clear {
+            clear: both;
+        }
+        #menubar-container {
+            width: 100%;
+            height: 80px;
+            background-color: #BB1919;
+        }
+        #menubar {
+            width: 1000px;
+            margin: 0 auto;
+        }
+        h1 {
+            margin: 0;
+            color: #FFF;
+            font-weight: normal;
+            padding-top: 20px;
+            font-size: 40px;  
+        }
+        #menubar-container2 {
+            width: 100%;
+            height: 40px;
+            background-color: #A91717;
+        }
+        #menubar2 {
+            width: 1000px;
+            margin: 0 auto;
+        }
+        #menubar2 a {
+            color: #FFF;
+            text-decoration: none;
+            padding-right: 10px;
+            padding-left: 10px;
+            border-right: 1px solid #cc7676;
+            position: relative;
+            top: 10px;
+        }
+        #menubar2 a:hover {
+            text-decoration: underline;
+        }
+        #no-boder {
+            border: none !important;
+        }
+        #more {
+            position: relative;
+            top: 10px;
+        }
+        .clear {
+            clear: both;
+        }
+        #page-container {
+            width: 1000px;
+            margin: 0 auto;
+        }
+        h2 {
+            margin-top: 40px;
+            font-weight: normal;
+            font-size: 20px;
+            border-bottom: 2px solid #A91717;
+            width: 100px;
+        }
+        h3 a {
+            color: #000;
+            text-decoration: none;
+            font-size: 30px;
+        }
+        h3 a:hover {
+            color: #1167aB;
+        }
+        #article-summary {
+            width: 250px;
+            float: left;
+        }
+        #onlin-image {
+            width: 700px;
+            height: 250px;
+            float: right;
+        }
+        .clear {
+            clear: both;
+        }
+		#bold-text {
+			text-decoration: double;
+			text-decoration: underline;
+			font-size: 20px;
+		}
+		#main-article {
+			float: left;
+			padding-right: 10px;
+			margin-top: 30px;
+			border-right: 1px solid grey;
+		}
+    </style>
+</head>
+<body>
+	<div id="topbar-section">
+        <img src="Screenshot%20BBC.png" id="logo"> 
+        <div class="topbar-menu">
+            <img src="Screenshot%20singin.png" id="singin-logo">
+            <span id="singin-text">Sign in</span>
+        </div>
+        <div class="topbar-menu">
+            <span class="top">News</span>
+        </div>
+        <div class="topbar-menu">
+            <span class="top">Sport</span>
+        </div>
+        <div class="topbar-menu">
+            <span class="top">Wether</span>
+        </div>
+        <div class="topbar-menu">
+            <span class="top">Shop</span>
+        </div>
+        <div class="topbar-menu">
+            <span class="top">Earth</span>
+        </div>
+        <div class="topbar-menu">
+            <span class="top">Travel</span>
+        </div>
+        <div class="topbar-menu">
+            <span class="top">More</span>
+            <span id="more-arrow"><img src="Screenshot%20more%20arrow.png"></span>
+           
+        </div>
+         <div class="search-bar">
+            <input type="search" placeholder="Search">
+            <img src="search-icon.png"> 
+            </div>
+    </div>
+        <div class="clear"></div>
+        
+        <div id="menubar-container">
+        
+            <div id="menubar">
+                <h1>News</h1>
+            </div>    
+        </div>
+        <div id="menubar-container2">
+            <div id="menubar2">
+            <a href="#">Home</a>
+            
+            <a href="#">Video</a>
+            
+            <a href="#">World</a>
+            
+            <a href="#">Asia</a>
+            
+            <a href="#">UK</a>
+            
+            <a href="#">Business</a>
+            
+            <a href="#">Tech</a>
+            
+            <a href="#">Science</a>
+            
+            <a href="#">Magazine</a>
+            
+            <a href="#">Entertainment & Arts</a>
+            
+            <a href="#">Health</a>
+            
+            <a href="#" id="no-boder">More</a>
+            <img src="Screenshot%20more%20arrow.png" id="more">    
+            </div>
+        </div>
+        <div class="clear"></div>
+    <div id="page-container">
+        
+        <div id="main-article">
+        
+            <h2>Technology</h2>
+            
+            <div id="article-container">
+                <h3 a><a href="#">Google's AI is being manipulated. The search giant is quietly fighting back</a></h3>
+                
+                <div id="article-summary">
+                    <p><b>CA BBC investigation revealed a simple way AI chatbots are being made to spit out misinformation to the public. Google and other AI companies are now trying to fix the problem.A BBC investigation revealed a simple way AI chatbots are being made to spit out misinformation to the public. Google and other AI companies are now trying to fix the problem.</b></p>
+                    7 days ago
+                </div>
+                <img src="https://ichef.bbci.co.uk/images/ic/1024xn/p0nm547y.jpg.webp" id="onlin-image">
+            </div>
+            <div class="clear"></div>
+            <div class="news-body">
+            <h4>A BBC investigation revealed a simple way AI chatbots are being made to spit out misinformation to the public. Google and other AI companies are now trying to fix the problem.</h4>
+            <p>I did something stupid back in February. I heard there was an easy way to poison AI chatbots and make them spread lies on your behalf. After some digging, I learned unscrupulous companies are abusing the problem on a massive scale. So I decided to try it myself.</p>
+				<p>We uncovered examples where ChatGPT, Gemini and the AI Overviews at the top of Google Search were being manipulated to dole out biased answers on topics as serious as your health and personal finances. And in just 20 minutes, I tricked ChatGPT and Google into telling the public that I am a <span id="bold-text">world-champion competitive hot-dog eater</span>. The joke was dumb. The problem is serious.</p>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
